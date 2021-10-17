@@ -1,0 +1,4 @@
+For broadcasting sensor data use topics model because it is used for continuous sending or receiving messages. This method of communication is suitable for sensors that require periodic data transmission. Multiple subscribers can receive messages from one publisher and vice versa.
+For sharing long lasting (>30s) computational resource use action model. The Action mode communication model is used when the execution of the requested command takes a long time and feedback from the process is needed.
+
+The information was taken from the Internet. At the moment I do not have the necessary knowledge in the field of ROS.
